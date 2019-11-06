@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans:300,400|Raleway:300,400&display=swap');
+
+body {
+  background-color: #E8E9EB;
+  font-family: 'Raleway', sans-serif;
+  color: #4B2E39;
+}
+
+#profile-picture {
+  border-radius: 50%;
+  width: 130px;
+  border: 2px dotted #4B2E39;
+
+}
+
+h1 {
+  color: #38434C;
+  font-family: 'Lora', serif
+  line-height: 15px;
+  font-size: 30px;
+}
+
+h2 {
+  color: #5C6A75;
+  line-height: 15px;
+  font-size: 18px;
+  font-style: bold;
+}
+
+p{
+  padding-bottom: 15px
+}
+
+a {
+  text-decoration: none;
+}
+
+#btn-contact{
+  background-color: #AF9FA5;
+  color: white;
+  padding: 14px;
+  border-radius: 10px;
+  border: 2px solid #AF9FA5;
+
+}
+
+a:hover #btn-contact {
+  background-color: black;
+}
+
+.card-white {
+  background-color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,.1);
+  margin: 15px auto;
+  padding: 20px;
+}
+
+
+.list-inline {
+  list-style: none;
+  display: inline-block;
+  padding: 0px;
+  color: grey;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: darkgray;
+  margin: 24px;
+}
+
+a:hover .social-icon {
+  color: grey;
+}
+
+ul {
+ padding-inline-start: 0px;
+}
+
+.container {
+  background-color: #bdb0b582;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards {
+  background-color: #AF9FA5;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,.1);
+  margin: 15px auto;
+  padding: 12px 27px;
+}
+
+.card {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 1px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.skills {
+  width: 100%;
+  margin: 34px auto;
+  font-weight: bold;
+  text-align: center;
+  color: #242d33;
+}
+
+
